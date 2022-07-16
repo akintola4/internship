@@ -1,0 +1,154 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homepage</title>
+    <style>
+        body{ 
+            background-size: cover;
+            background-color: rgb(255, 255, 255);
+        }
+        .container{
+            width: 100%;
+            min-height: 100vh;
+            padding-left: 8%;
+            padding-right: 2%;
+            box-sizing: border-box;
+            overflow: hidden;
+            font-family: Georgia, 'Times New Roman', Times, 'sans-serif';
+        }
+        .button2{
+            width: 140px;
+            border: 0ch;
+            padding: 12px 10px;
+            outline: none;
+            background-image: linear-gradient(to left, #0E6993,  #D33148);
+            border-radius: 6px;
+            color: white;
+            cursor: pointer;
+            transition: width 0.5s;
+        }
+        .button2 img{
+            width: 30px;
+            display: none;
+        }
+        .button2:hover img{
+            display: block;
+        }
+        .button2:hover{
+            width: 160px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .navbar{
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+        .logo{
+            width: 50px;
+            cursor: pointer;
+            margin: 30px 0px   ;
+        }
+        .logo-text{
+            cursor: pointer;
+            position: relative;
+            margin-left: 70px;
+            color: #0E6993;
+        }
+        nav{
+            flex: 1;
+            text-align: right;
+        }
+        nav ul li{
+            list-style: none;
+            display: inline-block;
+            margin-right: 30px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            font-size: 20px;
+            color: #0E6993;
+        }
+        nav ul li a:hover{
+            color: #D33148;
+        }
+        
+        .button1{
+            width: 90px;
+            border: 0ch;
+            padding: 12px 10px;
+            outline: none;
+            background-image: none;
+            background-color: #D33148;
+            color: white;
+            border: #0E6993;
+            border-radius: 50px;
+        }
+       .vote{
+        color: white;
+       }
+       .vote:hover{
+        color: #0E6993;
+       }
+       li button:hover{
+        scale: (3);
+       }
+      .main{
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+        margin: 100px o;
+      }
+      .vote1{
+        position: relative;
+      }
+      .vote1 h2{
+        font-size: 40px;
+        color: #0E6993;
+        
+      }
+      .vote1 h3{
+        font-size: 30px;
+        color: #D33148;
+        margin-left: 30px;
+      }
+    </style>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+<body>
+    <header class="container">
+        <div class="navbar">
+            <img src="logo.png" alt="logo for website" class="logo">
+            <h2 class="logo-text" >Votify</h2>
+        <nav>
+            <ul>
+                <li><a href="">Login</a></li>
+                <li><a href="">Sign Up</a></li>
+                <li><a href="">Support</a></li>
+                <li><a href="">Results</a></li>
+                
+                <li><button class="button1" type="button"><a class="vote" href="">VOTE</a></button> </li>
+            </ul>
+        </nav>
+        </div>
+        <main class="main">
+         <div class="vote1" id="left">
+                <h2 >Your</h2>
+                <h3 >Votes Matter</h3>
+                <h2 >Vote Anwehere Anytime with</h2>
+                <h3 >Our safe and secure serivces </h3>
+                <button type="button" class="button2">
+                    <img src="arrow2.png" alt="">
+                    Get Started
+                </button>
+            </div>
+            <img id="image1" src="vote.png" height="500px" alt="">
+        </main>
+        <img src="get.png" height="200px" width="684x" alt="">
+    </header>
+    
+</body>
+</html>
