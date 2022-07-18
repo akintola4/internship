@@ -21,19 +21,7 @@
         padding-top: 30px;
         color: #0E6993;
     }
-    form{
-    width: 500px;
-    height: 600px;
-    padding: 20px;
-    position: relative;
-    display: inline-block;
-    box-sizing: border-box;
-    border-radius: 20px;
-    margin-top:5%;
-    background-color: white;
-    margin-left: 30%; 
     
-    }
     input{
         display: block;
         margin-left: auto;
@@ -47,9 +35,16 @@
         
     }
     .container{
-        display: block;
-        margin-right: auto;
-        margin-right: auto;
+        width: 500px;
+    height: 600px;
+    padding: 20px;
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-top:5%;
+    background-color: white;
+    margin-left: 30%; 
     }
         
 #submit{
@@ -93,9 +88,10 @@ label{
 </head>
 
 <body>
-    <form action="" method="post">
+    <div class="container">
+        <form action="" method="post">
         
-        <div class="container">
+        
             <h2>CREATE YOUR ACCOUNT!</h2>
       <input type="text" name="" id="" placeholder="First name">
       <br>
@@ -122,9 +118,9 @@ label{
         <a href="">Privacy Policy</a>
         you hereby agree to your data being stored on your cloud database
       </p>
-     
+    </form> 
     </div>
-    </form>
+    
     
 </body>
 </html>
