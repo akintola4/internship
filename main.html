@@ -4,11 +4,129 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>homepage</title>
+    <script type="text/javascript" src="mapdata.js"></script>		
+    <script  type="text/javascript" src="usmap.js"></script>
     <style>
-
+        body{ 
+            background-size: cover;
+            background: linear-gradient(90deg, rgb(255 231 188) 50%, #fff5e2 50%);
+        }
+        .container{
+            width: 100%;
+            min-height: 100vh;
+            padding-left: 8%;
+            padding-right: 2%;
+            box-sizing: border-box;
+            overflow: hidden;
+            font-family: Georgia, 'sans-serif';
+        }
+        #map{
+            width: 500px;
+            text-align: center;
+            align-items: center;
+            margin-left: 25%;
+        }
+        .col-2{
+           text-align: center;
+           margin-bottom: 30px;
+            position: relative;
+        }
+        .text1{
+            position: absolute;
+            font-size: 22px;
+            color: red;
+            margin-top: 10px;
+        }
+        .text2{
+            position: absolute;
+            margin-top: 10px;
+            font-size: 22px;
+            color: blue;
+            margin-right: 10px;
+        }
+        #red{
+            color: red;
+        }
+        #blue{
+            color: blue;
+            position: relative;
+            padding: 0%;
+        }
+        span{
+            background-color: red;
+            padding: 0px 144px;
+            position: relative;
+            margin-bottom: 30px;
+        }
+        #span2{
+            background-color: blue;
+            padding: 0px 100px;
+        }
+        .form{
+            border: 7px solid black;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            margin-left: 25%;
+            margin-right: 25%;
+        }
+        h3{
+            font-size: 22px;
+        }
+        h4{
+            margin-block: auto;
+            margin-right: 119px;
+        }
+        img{
+            height: 7%;
+            border-radius: 10px;
+        }
+        .state{
+            border-radius: 20px;
+            width: 120px;
+            height: 27px;
+            margin-left: 20px;
+            background-color: green;
+            border: 2px solid green;
+            color: white;
+            font-size: 17px;
+        }
+        #img2{
+            margin: 10px;
+        }
+        .vote{
+            border-radius: 20px;
+            width: 70px;
+            height: 27px;
+            font-size: 17px;
+            background-color: green;
+            border: 2px solid green;
+            color: white;
+        }
     </style>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="col-1">
+            <div id="map"></div>
+        </div>
+        <div class="col-2">
+            <img src="elon.png" alt="">
+            <label class="text1">500 Votes</label>       
+            <span></span>
+            <label class="text2">200 Votes</label>
+             <span id="span2"></span>
+            <img src="jeff.png" alt="">
+        </div>
+        <div class="form">
+            <h3>Cast your vote </h3>
+            <h4>select state  : <button class="state">New York</button></h4>
+            <img id="img2" src="elon.png" alt="">
+            <img  id="img2" src="jeff.png" alt="">
+            <br>
+            <button class="vote">vote</button>
+        </div>
+    </div>
+
 </body>
 </html>
