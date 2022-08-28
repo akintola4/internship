@@ -1,0 +1,81 @@
+
+body{
+    background-color: antiquewhite;
+    background-image: url('backdrop.png');
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    color: #0E6993;
+}
+
+input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 13px;
+    text-align: center;
+    width: 80%;
+    border: 2px solid #0E6993;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+.container{
+width: 500px;
+height: 600px;
+padding: 20px;
+position: relative;
+display: inline-block;
+box-sizing: border-box;
+border-radius: 20px;
+
+background-color: white;
+
+}
+    
+#submit{
+border: 0ch;
+border-radius: 25px;
+display: block;
+margin: auto;
+color: white;
+background-color: red;
+padding: 1%;
+cursor: pointer;
+height: 30px;
+text-align: center;
+padding-left: 40px;
+padding-right: 40px;
+}
+p{
+margin: 0px 12px 0px;
+opacity: 50%;
+}
+label{
+font-weight: 600;
+}
+#need{
+margin: 0px 0px 0px 70px;
+padding: 0px 0px 0px 120px;
+}
+.need:hover{
+transform: scale(1.9);
+}
+.grid1{
+display: flex;
+flex-direction: row;
+justify-content: space-around;        
+}
+.grid1 > div{            
+padding: 10px;
+margin: 10px;
+}

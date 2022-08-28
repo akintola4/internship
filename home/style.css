@@ -1,0 +1,150 @@
+
+body {
+    background-size: cover;
+    background-color: rgb(255, 255, 255);
+    background-image: url('backdrop.png');
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 2%;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: Georgia, 'Times New Roman', Times, 'sans-serif';
+}
+
+.button2 {
+    width: 140px;
+    border: 0px;
+    padding: 12px 10px;
+    outline: none;
+    background-image: linear-gradient(to left, #0E6993, #D33148);
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    transition: width 0.1s;
+}
+
+.button2 img {
+    width: 30px;
+    display: none;
+}
+
+.button2:hover img {
+    display: block;
+}
+
+.button2:hover {
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    cursor: pointer;
+    margin: 30px 0px;
+}
+
+.logo-text {
+    cursor: pointer;
+    position: relative;
+    margin-left: 70px;
+    color: #0E6993;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #0E6993;
+}
+
+nav ul li a:hover {
+    color: #D33148;
+}
+
+nav:hove .bnt-1 {
+    width: 90px;
+    border: 0ch;
+    padding: 12px 10px;
+    outline: none;
+
+    background-color: #D33148;
+    color: rgb(255, 255, 255);
+    border: #0E6993;
+    background: none;
+    border-radius: 50px;
+}
+
+.vote {
+    border: 2px solid #0E6993;
+    background-color: none;
+    background: none;
+    color: #0E6993;
+    border-radius: 20px;
+    font-size: 10px;
+}
+
+a {
+    color: #0E6993;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+.vote:hover {
+    border: 2px solid #D33148;
+}
+
+img {
+    float: left;
+}
+
+li button:hover {
+    scale: (3);
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px o;
+}
+
+.vote1 {
+    position: relative;
+}
+
+.vote1 h2 {
+    font-size: 40px;
+    color: #0E6993;
+
+}
+
+.vote1 h3 {
+    font-size: 30px;
+    color: #D33148;
+    margin-left: 30px;
+}
