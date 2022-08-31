@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-size: cover;
+        background-color: rgb(255, 255, 255);
+    }
+
+
+    .navbar {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .logo {
+        width: 50px;
+        cursor: pointer;
+        margin: 30px 0px;
+    }
+
+    .logo-text {
+        cursor: pointer;
+        position: relative;
+        margin-left: 70px;
+        color: #0E6993;
+    }
+
+    nav {
+        flex: 1;
+        text-align: right;
+    }
+
+    nav ul li {
+        list-style: none;
+        display: inline-block;
+        margin-right: 30px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        font-size: 20px;
+        color: #0E6993;
+    }
+
+    nav ul li a:hover {
+        color: #D33148;
+    }
+
+    nav:hove .button1 {
+        width: 90px;
+        border: 0ch;
+        padding: 12px 10px;
+        outline: none;
+        background-image: none;
+        background-color: #D33148;
+        color: white;
+        border: #0E6993;
+        border-radius: 50px;
+    }
+
+    .vote {
+        color: white;
+    }
+
+    .vote:hover {
+        color: #0E6993;
+    }
+
+    li button:hover {
+        scale: (3);
+    }
+
+    .main {
+
+        text-align: center;
+
+    }
+
+    .vote1 {
+        position: relative;
+    }
+
+    .vote1 h2 {
+        font-size: 40px;
+        color: #0E6993;
+
+    }
+
+    .vote1 h3 {
+        font-size: 30px;
+        color: #D33148;
+        margin-left: 30px;
+    }
+
+    .column1 {
+
+        border: 2px solid #0E6993;
+    }
+
+    .parent {
+        background-color: skyblue;
+        width: 30%;
+        padding: 10px;
+        border-radius: 20px;
+        border: 5px solid white;
+    }
+
+    .header1 {
+        color: white;
+        padding: 5px;
+        text-align: left;
+
+    }
+
+    .header2 {
+        text-align: left;
+    }
+
+    .myinput {
+        border-radius: 10px;
+        border-color: none;
+        border: 2px solid white;
+        background-color: rgb(231, 231, 231);
+        padding: 10px;
+        margin: 10px 0;
+        width: 90%;
+    }
+
+    .header3 {
+        /*text-align: start;*/
+        padding: 10px;
+        padding-left: 0;
+
+
+    }
+
+    .myinput1 {
+        border-radius: 0px;
+        border: 1px solid silver;
+        padding: 10px;
+        margin: 10px 0;
+        width: 90%;
+        height: 100px;
+    }
+
+    .grid {
+        margin: 0px 50px 0px 50px;
+        padding: 0%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .send {
+        text-align: center;
+        color: #ffff;
+        background-color: #0E6993;
+        border: 2px solid #0E6993;
+        border-radius: 10px;
+        margin: 0 60px;
+        height: 40px;
+        width: 150px;
+    }
+    .copy{
+        color: rgba(0, 0, 0, 0.5);
+    }
+</style>
+<link rel="shortcut icon" href="logo.png" type="image/x-icon">
+
+<body>
+
+    <div class="navbar">
+        <img src="logo.png" alt="logo for website" class="logo">
+        <h2 class="logo-text">Votify</h2>
+        <nav>
+            <ul>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="">Support</a></li>
+                <li><a href="">Results</a></li>
+
+                <li><button class="button1" type="button"><a class="vote" href="">VOTE</a></button> </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main">
+        <h1>Have Some Question? </h1>
+        <p>Thank you for your interest in our services. Please fill out the form below or e-mail us at</p>
+           <p> hello@gmail.com and we will get back to you promptly regarding your request. </p>
+
+    </div>
+    <div class="grid">
+        <div class="column1">
+            <h2>Get in touch</h2><br>
+            <ul>
+                <img src="" alt="">
+                <li>+1-760-284-340</li>
+                <li>hello@gmail.com</li>
+                <li>931 abia martins drive, pa pennsylvania-18104</li>
+            </ul>
+        </div>
+        <form action="#" class="parent">
+            <input class="myinput" type="name" placeholder="First name">
+            <input class="myinput" type="name" placeholder="Last name">
+            <input class="myinput" type="number" placeholder="phone">
+            <input class="myinput" type="Email" placeholder="Email">
+            <textarea class="myinput1" name="" id="" cols="30" rows="10" placeholder="message"></textarea>
+            <input class="send" type="submit" value="Send Message" placeholder="Send Message">
+            <p class="copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptatum, sit odit cum ad dignissimon </p>
+        </form>
+    </div>
+</body>
+
+</html>
