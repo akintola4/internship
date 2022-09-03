@@ -75,13 +75,19 @@ img{
 }
 .state{
     border-radius: 20px;
-    width: 120px;
+    width: 50%;
     height: 27px;
     margin-left: 20px;
     background-color: green;
     border: 2px solid green;
     color: white;
-    font-size: 17px;
+}
+label{
+    font-size: 20px;
+}
+option{
+    font-size: 15px;
+    text-align: center;
 }
 #img2{
     margin: 10px;
