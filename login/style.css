@@ -1,6 +1,6 @@
 
 body{
-    background-image: url('backdrop.png');
+    background-image: url('../image/backdrop.png');
     background-size: cover;
     background-color: antiquewhite;
     margin: 0%;
