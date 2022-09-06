@@ -5,14 +5,13 @@ body {
 
 .container {
     width: 100%;
-    min-height: 100vh;
+    min-height: 60vh;
     padding-left: 8%;
+    background-color:#86b4c9;
     padding-right: 2%;
     box-sizing: border-box;
     overflow: hidden;
-    background-color: rgb(255, 255, 255);
     background-size: cover;
-    
     background-image: url('backdrop.png');
     font-family: Georgia, 'Times New Roman', Times, 'sans-serif';
 }
@@ -120,14 +119,30 @@ a:hover {
     border: 2px solid #D33148;
 }
 
-
-
-
-
-
-
-
-
+.hero-section{
+    height: 40vh;
+    text-align: center;
+    color: #fff;
+}
+h2{
+    text-align: center;
+}
+.hero2{
+    margin:0 10%;
+    text-justify: inter-word;
+}
+.section-1{
+    display: flex;
+    margin: 5% 5%;
+    justify-content: space-between;
+}
+.content-1{
+    width: 50%;
+    text-align: justify;
+}
+.content-2{
+    width: 50%;
+}
 
 
 footer {

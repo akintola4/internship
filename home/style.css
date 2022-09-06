@@ -223,6 +223,9 @@ footer {
     border: 4px solid #0E6993;
     color: #fff;
 }
+.link{
+    color: #fff;
+}
 
 .read:hover {
     color: #fff;
