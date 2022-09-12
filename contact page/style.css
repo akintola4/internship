@@ -2,6 +2,7 @@
         background-size: cover;
         background-color: rgb(255, 255, 255);
         background-image: url('../image/backcon.png');
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     .container {
