@@ -68,14 +68,14 @@
 
     main {
         display: flex;
-
+        align-content: center;
     }
 
-    .content {
+    .content1 {
         color: #0E6993;
         position: relative;
-        margin-top: 8%;
-        margin-right: 10%;
+        width: 50%;
+        
     }
     h1{
         font-size: 50px;
@@ -85,7 +85,9 @@
         font-size: small;
         font-weight: 100;
     }
-
+.content2{
+    width: 50%;
+}
     .learn {
         background-color: #0E6993;
         color: white;

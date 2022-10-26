@@ -1,7 +1,7 @@
 
 body{
     background-color: antiquewhite;
-    background-image: url('../image/backdrop.png');
+    
     background-size: cover;
     width: 100%;
     min-height: 100vh;
